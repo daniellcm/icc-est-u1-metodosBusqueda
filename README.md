@@ -3,11 +3,11 @@
 
 ## 📌 Información General
 
-- **Título:** Metodo Busqueda
+- **Título:** Metodo Busqueda y Busqueda Binaria
 - **Asignatura:** Estructura de Datos
 - **Carrera:** Computación
 - **Estudiante:** Daniel Cajas
-- **Fecha:** 15/04/2025
+- **Fecha:** 16/04/2025
 - **Profesor:** Ing. Pablo Torres
 
 ---

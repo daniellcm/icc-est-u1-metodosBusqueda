@@ -1,26 +1,25 @@
 package Views;
+
 import java.util.Scanner;
 
 public class ShowConsole {
-    private Scanner sacnner;
+    private Scanner scanner;
 
     public ShowConsole() {
-        this.sacnner = new Scanner(System.in);
+        this.scanner = new Scanner(System.in);
         showBanner();
-        inputCode();
     }
 
-    public void showBanner(){
+    public void showBanner() {
         System.out.println("\n/// Metodos de busqueda ///\n");
     }
 
-    public int inputCode(){
+    public int inputCode() {
         System.out.println("Ingrese un codigo:");
-        int code = sacnner.nextInt();
-        return code;
+        return scanner.nextInt();
     }
 
-    public void showMessage(String message){
+    public void showMessage(String message) {
         System.out.println(message);
     }
 }
