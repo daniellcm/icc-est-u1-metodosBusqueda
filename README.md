@@ -42,16 +42,18 @@ Para ejecutar el proyecto:
 ## 🧑‍💻 Ejemplo de Entrada
 
 ```plaintext
-/// Programa funcionando ///
 
+/// Programa funcionando ///
 
 /// Metodos de busqueda ///
 
 Ingrese un codigo:
-1
+101
 Ingrese un codigo:
-1
-Persona en posicion -1 no encontrada.
+101
+Persona en posicion 0 encontrada.
+Persona => (Codigo=101, Nombre=Juan)
+
 ```
 
 ---
