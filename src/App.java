@@ -1,5 +1,4 @@
 import Controllers.MetodosBusquedaLineal;
-import Controllers.MetodoOrdenamiento;
 import Controllers.MetodosBusquedaBinaria;
 import Models.Persona;
 
@@ -17,9 +16,8 @@ public class App {
         personas[6] = new Persona(104, "Pedro");
 
         // MetodosBusquedaLineal mB = new MetodosBusquedaLineal(personas);
-        // MetodosBusquedaBinaria mBB = new MetodosBusquedaBinaria(personas);
-        // mBB.showPersonByName();
-        MetodoOrdenamiento mO = new MetodoOrdenamiento();
-        mO.ordenarPorCodigo();
+        MetodosBusquedaBinaria mBB = new MetodosBusquedaBinaria(personas);
+        mBB.showPersonByName();
+
     }
 }

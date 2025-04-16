@@ -32,7 +32,7 @@ public class MetodosBusquedaBinaria {
         return -1;
     }
 
-    public void showPersonByName() {
+    public void showPersonByCode() {
         int codeToFinde = pantalla.inputCode();
         int indexPerson = findPersonByCode(codeToFinde);
         if (indexPerson == -1) {
@@ -41,6 +41,37 @@ public class MetodosBusquedaBinaria {
         } else {
             pantalla.showMessage("Persona con codigo "
                     + codeToFinde + " encontrada: " + personas[indexPerson].getName());
+        }
+    }
+
+    private int findPersonaByName(String name) {
+        int bajo = 0;
+        int alto = personas.length - 1;
+
+        while (alto >= bajo) {
+            int central = (alto + bajo) / 2;
+
+            if (personas[central].getName().equals(name)) {
+                return central;
+            }
+            if (personas[central].getName().compareTo(name) > 0) {
+                alto = central - 1;
+            } else {
+                bajo = central + 1;
+            }
+        }
+        return -1;
+    }
+
+    public void showPersonaByName() {
+        String nameToFind = pantalla.inputName();
+        int indexPerson = findPersonaByName(nameToFind);
+
+        if (indexPerson == -1) {
+            pantalla.showMessage("Persona con nombre: " + nameToFind + " no encontrada");
+        } else {
+            pantalla.showMessage("Persona con nombre: " + nameToFind + " encontrada");
+            pantalla.showMessage(personas[indexPerson].toString());
         }
     }
 
