@@ -1,18 +1,57 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Metodo Busqueda
 
-## Folder Structure
+## 📌 Información General
 
-The workspace contains two folders by default, where:
+- **Título:** Metodo Busqueda
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** Daniel Cajas
+- **Fecha:** 15/04/2025
+- **Profesor:** Ing. Pablo Torres
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🛠️ Descripción
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Este proyecto implementa un algoritmo de busqueda lineal en Java:
+- Metodo busqueda lineal
 
-## Dependency Management
+El metodo funciona asi: 
+Usando un bucle (for) pasa por el arreglo comparando el valor a buscar con 
+cada valor del arreglo, una vez encontrado el valor devuelve la posicion 
+en el cual se encontro el valor, el motodo busca de manera lineal y en 
+caso de noi encontrar el valor el metodo devuelve un valoir de 0
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🚀 Ejecución
+
+Para ejecutar el proyecto:
+
+1. Compila el código:
+    ```bash
+    javac App.java
+    ```
+2. Ejecuta la aplicación:
+    ```bash
+    java App
+    ```
+
+---
+
+## 🧑‍💻 Ejemplo de Entrada
+
+```plaintext
+/// Programa funcionando ///
+
+
+/// Metodos de busqueda ///
+
+Ingrese un codigo:
+1
+Ingrese un codigo:
+1
+Persona en posicion -1 no encontrada.
+```
+
+---
