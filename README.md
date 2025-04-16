@@ -1,9 +1,9 @@
 
-# Metodo Busqueda
+# Metodos Busqueda
 
 ## 📌 Información General
 
-- **Título:** Metodo Busqueda y Busqueda Binaria
+- **Título:** Metodo Busqueda Lineal y Binaria
 - **Asignatura:** Estructura de Datos
 - **Carrera:** Computación
 - **Estudiante:** Daniel Cajas

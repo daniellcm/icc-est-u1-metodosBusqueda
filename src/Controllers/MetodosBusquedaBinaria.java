@@ -43,4 +43,5 @@ public class MetodosBusquedaBinaria {
                     + codeToFinde + " encontrada: " + personas[indexPerson].getName());
         }
     }
+
 }

@@ -3,14 +3,14 @@ package Controllers;
 import Models.Persona;
 import Views.ShowConsole;
 
-public class MetodosBusqueda {
+public class MetodosBusquedaLineal {
     private ShowConsole showConsole;
     private Persona[] people;
 
-    public MetodosBusqueda() {
+    public MetodosBusquedaLineal() {
     }
 
-    public MetodosBusqueda(Persona[] personas) {
+    public MetodosBusquedaLineal(Persona[] personas) {
         showConsole = new ShowConsole();
         this.people = personas;
         showPersona();
